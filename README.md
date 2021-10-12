@@ -12,6 +12,10 @@
 ```sh
 python setup.py sdist bdist_wheel	
 cd dist && pip3 install  *.whl
+
+OR
+
+pip install serverless-local-debugger
 ```
 
 
