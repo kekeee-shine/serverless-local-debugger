@@ -18,7 +18,7 @@ cd dist && pip3 install  *.whl
 
 ##### Usage
 
-| Static Variable |          Describe          |          Default           |
+| Static Variable |        Description         |          Default           |
 | :-------------: | :------------------------: | :------------------------: |
 |   AWS_AK_ENV    |  AWS ACCESS_KEY ENV NAME   |     AWS_ACCESS_KEY_ID      |
 |   AWS_SK_ENV    |  AWS SECRET_KEY ENV NAME   |   AWS_SECRET_ACCESS_KEY    |
