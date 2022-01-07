@@ -9,12 +9,12 @@ requires = [
 ]
 
 # 自动读取readme
-with open('README.md', 'r') as f:
+with open('README.rst', 'r') as f:
     readme = f.read()
 
 setup(
     name='serverless-local-debugger',  # 包名称
-    version="0.0.1",  # 包版本
+    version="0.0.3",  # 包版本
     description="",  # 包详细描述
     long_description=readme,  # 长描述，通常是readme，打包到PiPy需要
     author="kekeee",  # 作者名称

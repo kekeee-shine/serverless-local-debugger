@@ -57,6 +57,10 @@ class ServerlessDebugger(abc.ABC):
             os.environ[k] = v
         module = importlib.import_module(self.function)
         ep = StaticVar.get_entrypoint()
+        if self.cloud_type == 'ALI':
+            # 适配ali function的解析方式：
+            # json.loads(event.decode())
+            self.event = json.dumps(self.event).encode()
         rsp = module.__dict__[ep[self.cloud_type]](self.event, self.CONTEXT)
         return rsp
 
