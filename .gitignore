@@ -8,3 +8,7 @@ serverless_local_debugger.egg-info/not-zip-safe
 serverless_local_debugger.egg-info/PKG-INFO
 serverless_local_debugger.egg-info/SOURCES.txt
 serverless_local_debugger.egg-info/top_level.txt
+serverless_local_debugger/core/__pycache__/debugger.cpython-39.pyc
+serverless_local_debugger/core/__pycache__/debuger.cpython-39.pyc
+serverless_local_debugger/__pycache__/__init__.cpython-39.pyc
+examples/ALI/__pycache__/function.cpython-39.pyc
